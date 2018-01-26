@@ -1,0 +1,64 @@
+
+body {
+    background-image: url("http://www.soupbridge.org/wp-content/uploads/2014/12/shining_sun-wallpaper-2880x1620.jpg");
+    background-repeat: no-repeat;
+    background-position: centre;
+    width: 100%;
+
+}
+/* Tag specific elements on webpage. Pathway to this = inspect>Select element>Copy>Copy Selector. NAVBAR PASTED HERE*/
+#bs-example-navbar-collapse-1 {
+  background-color: black;
+
+}
+/* Included the opacity option to allow the internet sourced image to be shown as the background*/
+tbody {
+    opacity: 0.75;
+    filter: alpha(opacity=50);
+}
+
+
+
+.fa-caret-down {
+  color: red;
+}
+
+
+.fa-caret-up {
+  color: green;
+}
+
+/*Changes the table heading to purple*/
+table {
+  background-image: url(https://pbs.twimg.com/profile_images/918487446526054400/tbCLvxih_400x400.jpg);
+}
+
+thead {
+  color:White;
+
+}
+/* First two should be green ( or a colour that shows it's good ) */
+tr.contestant:nth-child(1),
+tr.contestant:nth-child(2) {
+  background-color: #d1ffd1;
+  height: 100px;
+
+}
+
+/* Next four should be orange ( or average colour ) */
+tr.contestant:nth-child(3),
+tr.contestant:nth-child(4),
+tr.contestant:nth-child(5),
+tr.contestant:nth-child(6) {
+  background-color: #c1c6bc;
+  height: 60px;
+}
+
+
+/* last two should be red ( or a bad colour ) */
+tr.contestant:nth-last-child(1),
+tr.contestant:nth-last-child(2),
+tr.contestant:nth-last-child(3) {
+  background-color: #ff8484;
+  height:60px;
+}
